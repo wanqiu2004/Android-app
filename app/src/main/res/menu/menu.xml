@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/listview"
+            android:title="ListView">
+        <menu>
+            <item
+                    android:title="垂直显示"
+                    android:id="@+id/ListVertical"></item>
+            <item
+                    android:title="垂直反转"
+                    android:id="@+id/ListVerticalReverse"></item>
+            <item
+                    android:title="水平显示"
+                    android:id="@+id/ListLevel"></item>
+            <item
+                    android:title="水平反转"
+                    android:id="@+id/ListLevelReverse"></item>
+        </menu>
+    </item>
+
+    <item
+            android:id="@+id/gridview"
+            android:title="GridView">
+        <menu>
+            <item
+                    android:title="两列布局"
+                    android:id="@+id/GridTwoColumns"></item>
+            <item
+                    android:title="三列布局"
+                    android:id="@+id/GridThreeColumns"></item>
+            <item
+                    android:title="四列布局"
+                    android:id="@+id/GridFourColumns"></item>
+            <item
+                    android:title="自适应列数"
+                    android:id="@+id/GridAutoFit"></item>
+        </menu>
+    </item>
+
+    <item
+            android:id="@+id/staggerview"
+            android:title="StaggerView">
+        <menu>
+            <item
+                    android:title="瀑布流垂直"
+                    android:id="@+id/StaggerVertical"></item>
+            <item
+                    android:title="瀑布流垂直反转"
+                    android:id="@+id/StaggerVerticalReverse"></item>
+            <item
+                    android:title="瀑布流水平"
+                    android:id="@+id/StaggerHorizontal"></item>
+            <item
+                    android:title="瀑布流水平反转"
+                    android:id="@+id/StaggerHorizontalReverse"></item>
+        </menu>
+    </item>
+</menu>
